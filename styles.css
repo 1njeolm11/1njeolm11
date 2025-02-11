@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.question {
+    font-size: 2rem;
+    color: #e64a19;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.yes {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.no {
+    background-color: #f44336;
+    color: white;
+    position: relative;
+}
+
+/* Hover effect to move the "No" button */
+.no:hover {
+    transform: translate(50px, 50px);
+}
